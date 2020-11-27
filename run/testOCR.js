@@ -1,10 +1,8 @@
 'use strict';
 
-
-const runOCR = require('../src/runOCR');
-
 const Image = require('image-js').default;
 
+const runOCR = require('../src/runOCR');
 const loadFontFingerprint = require('../src/util/loadFontData');
 const symbols = require('../src/util/symbolClasses').MRZ; // SYMBOLS MRZ NUMBERS
 
